@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "206928138758",
+    "firebase_url": "https://mobuni-b9f65.firebaseio.com",
+    "project_id": "mobuni-b9f65",
+    "storage_bucket": "mobuni-b9f65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206928138758:android:8a539c0e75583ef4036987",
+        "android_client_info": {
+          "package_name": "com.fmb.mobuni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206928138758-3j4mkho1csn9aoljjs4aftjtl7pcj15p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fmb.mobuni",
+            "certificate_hash": "e922565531b415022e537394972cfec88bb4d984"
+          }
+        },
+        {
+          "client_id": "206928138758-k2qdp0abdpgn9nfhe2kbclegdcmnulm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkZLs0-KZhkPZ626HnctMblZRfV8DERIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206928138758-k2qdp0abdpgn9nfhe2kbclegdcmnulm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

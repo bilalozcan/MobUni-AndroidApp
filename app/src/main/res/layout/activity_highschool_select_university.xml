@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HighschoolSelectUniversityActivity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/select_university_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_university_toolbar">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_highschool_university"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="100dp"
+            android:background="@color/colorGrey"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:padding="25dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_highschool_department"
+            android:layout_below="@id/spinner_highschool_university"
+            android:background="@color/colorGrey"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:padding="25dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_select_university"
+            android:text="Kaydet"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/spinner_highschool_department"
+            android:layout_marginTop="125dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

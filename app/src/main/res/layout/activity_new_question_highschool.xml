@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewQuestionHighschoolActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground">
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:background="@color/colorPrimary"
+            tools:targetApi="lollipop">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/close_highschool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="false"
+                    android:background="@color/colorWhite"
+                    android:src="@drawable/ic_close"
+                    android:contentDescription="TODO" />
+                <TextView
+                    android:id="@+id/share_highschool"
+                    android:layout_width="65dp"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/kivrimli_kenar"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:textStyle="bold"
+                    android:text="SOR"
+                    android:textColor="@color/colorPrimary"/>
+
+            </RelativeLayout>
+        </Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_height="500dp">
+        <EditText
+            android:id="@+id/question_added_highschool"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints=""
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:maxLength="200"
+            android:gravity="left"
+            android:hint="SORU SORUNUZ..."
+            android:background="@color/colorWhite"
+
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:textColorHint="#8D8686" />
+    </RelativeLayout>
+
+</LinearLayout>

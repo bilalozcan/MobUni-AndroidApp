@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MobUni</string>
+    <string name="create_new_acount">HESAP OLUŞTUR</string>
+    <string name="login">GİRİŞ</string>
+    <string name="username">Adı Soyadı                            </string>
+    <string name="surname">Kulanıcı Adı</string>
+    <string name="mail">E-Posta</string>
+    <string name="password">Parola</string>
+    <string name="create_acount">HESAP OLUŞTUR</string>
+    <string name="login2">GİRİŞ YAP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="niversite">Üniversite</string>
+    <string name="lise">lise</string>
+
+    <string name="title_activity_university_main">UniversityMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="profil">Profil</string>
+    <string name="hakkında">Hakkında</string>
+    <string name="cikisyap">Çıkış Yap</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="title_activity_highschool_main">HighschoolMainActivity</string>
+
+</resources>

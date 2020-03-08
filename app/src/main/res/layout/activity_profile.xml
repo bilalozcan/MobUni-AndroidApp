@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <include
+        android:id="@+id/profileactionbar"
+        layout="@layout/actionbar_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="675dp"
+        android:layout_below="@id/profileactionbar">
+
+        <RelativeLayout
+            android:id="@+id/relativeprofile"
+            android:layout_width="match_parent"
+            android:layout_height="680dp"
+            android:padding="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="195dp"
+                android:layout_height="173dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/ic_launcher" />
+
+            <RelativeLayout
+                android:id="@+id/relusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@+id/profile_image"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Username"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/relusername">
+
+                <TextView
+                    android:id="@+id/school_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#90000000"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/department"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/school_name"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#79000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/send_message"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/relusername"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/kivrimli_kenar"
+                android:backgroundTint="#035607"
+                android:backgroundTintMode="add"
+                android:text="Profili Düzenle" />
+
+            <Button
+                android:id="@+id/show_post"
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_below="@id/send_message"
+                android:layout_alignEnd="@id/send_message"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="-3dp"
+                android:background="@drawable/profil_yuvarlak"
+                android:backgroundTint="#09e6ea"
+                android:backgroundTintMode="add"
+                android:text="Paylaştığım Etkinlikler" />
+
+            <Button
+                android:id="@+id/show_questions"
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_below="@id/send_message"
+                android:layout_alignStart="@id/send_message"
+                android:layout_marginStart="-4dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/profil_yuvarlak"
+                android:backgroundTint="#dded09"
+                android:backgroundTintMode="add"
+                android:text="Sorduğum Sorular"
+                android:textColor="#000" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

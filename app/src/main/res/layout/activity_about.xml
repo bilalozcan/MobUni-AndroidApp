@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fmbg.moobuni.AboutActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/toolbar_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+    </include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar_about"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll_view_about">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/about_textview"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:gravity="center"/>
+    </ScrollView>
+</RelativeLayout>

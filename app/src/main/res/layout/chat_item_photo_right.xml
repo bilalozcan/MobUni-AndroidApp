@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="250dp"
+        android:layout_alignParentRight="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_image"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/background_right"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/show_image_message"
+            android:layout_alignParentEnd="true"
+            android:textColor="#fff"
+            android:padding="4dp"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/show_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="14dp"
+            android:textColor="#000000"
+
+            android:text="time"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

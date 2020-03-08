@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <include
+        android:id="@+id/actionbarregisterid"
+        layout="@layout/actionbar_app"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionbarregisterid">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativelayout_register">
+
+            <EditText
+                android:id="@+id/nametxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:maxLength="27"
+                android:maxLines="1"
+                android:layout_marginStart="45dp"
+                android:layout_marginEnd="45dp"
+                android:hint="@string/username"/>
+
+            <EditText
+                android:id="@+id/usertxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nametxt"
+                android:layout_marginTop="30dp"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:layout_alignStart="@+id/nametxt"
+                android:layout_alignEnd="@+id/nametxt"
+                android:hint="@string/surname" />
+
+            <EditText
+                android:id="@+id/mailtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/usertxt"
+                android:layout_marginTop="30dp"
+                android:maxLines="1"
+                android:maxLength="35"
+                android:layout_alignStart="@+id/usertxt"
+                android:layout_alignEnd="@+id/usertxt"
+                android:hint="@string/mail"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/passwordtxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mailtxt"
+                android:layout_marginTop="30dp"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:layout_alignStart="@+id/mailtxt"
+                android:layout_alignEnd="@+id/mailtxt"
+                android:hint="@string/password"
+                android:inputType="textPassword"/>
+            <EditText
+                android:id="@+id/passwordtxtagain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordtxt"
+                android:layout_marginTop="30dp"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:layout_alignStart="@+id/passwordtxt"
+                android:layout_alignEnd="@+id/passwordtxt"
+                android:hint="Parola Tekrar"
+                android:inputType="textPassword"/>
+
+            <CheckBox
+                android:id="@+id/typeSwitch"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordtxtagain"
+                android:layout_marginTop="30dp"
+                android:layout_alignStart="@id/passwordtxtagain"
+                android:text="Üniversite"/>
+
+            <RelativeLayout
+                android:id="@+id/frameLayout"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/typeSwitch"
+                android:layout_marginTop="30dp"
+                android:layout_alignStart="@id/typeSwitch"
+                android:layout_alignEnd="@id/passwordtxtagain"
+                android:visibility="invisible">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinner"
+                    android:layout_alignStart="@+id/spinner"
+                    android:layout_alignEnd="@+id/spinner"
+                    android:layout_marginTop="30dp"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/registerButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frameLayout"
+                android:layout_marginTop="30dp"
+                android:layout_alignStart="@+id/frameLayout"
+                android:layout_alignEnd="@+id/frameLayout"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/girisbuttonsekil"
+                android:onClick="signUp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="@string/create_acount"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

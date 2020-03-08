@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile_icon"
+            android:title="@string/profil" />
+        <item
+            android:id="@+id/tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/ayarlar" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/cikisyap" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_star_border_black_24dp"
+            android:title="@string/hakkında" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search_light"
+            android:title="Arama"/>
+    </group>
+
+
+</menu>

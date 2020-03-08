@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <include
+        android:id="@+id/actionbarloginid"
+        layout="@layout/actionbar_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionbarloginid">
+
+            <RelativeLayout
+                android:id="@+id/relativelayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/mailtxt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginRight="20dp"
+                    android:autofillHints=""
+                    android:maxLength="35"
+                    android:maxLines="1"
+                    android:hint="@string/mail"
+                    android:inputType="textEmailAddress"
+                    tools:targetApi="o" />
+
+
+                <EditText
+                    android:id="@+id/passwordtxt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mailtxt1"
+                    android:layout_alignStart="@+id/mailtxt1"
+                    android:maxLines="1"
+                    android:layout_alignEnd="@+id/mailtxt1"
+                    android:layout_marginTop="45dp"
+                    android:maxLength="15"
+                    android:autofillHints=""
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    tools:targetApi="o" />
+
+                <Button
+                    android:id="@+id/registerButtonId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/passwordtxt2"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginEnd="50dp"
+                    android:background="@drawable/girisbuttonsekil"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:onClick="signIn"
+                    android:text="@string/login2"
+                    android:textColor="@android:color/white" />
+                <TextView
+                    android:id="@+id/forgotpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/registerButtonId"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginBottom="80dp"
+                    android:textStyle="bold"
+                    android:text="Parolamı Unuttum"/>
+            </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

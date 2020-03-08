@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/user_logo"
+                android:layout_width="32dp"
+                android:layout_height="29dp"
+                android:layout_margin="10dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_below="@id/user_name"
+                android:layout_alignStart="@id/user_logo"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="1dp">
+
+                <TextView
+                    android:id="@+id/question_user_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="9dp" />
+
+                <TextView
+                    android:id="@+id/question_user_department"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/question_user_university"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="8dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/questiona"
+            layout="@layout/newquestion" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_alignBottom="@id/answer"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="-30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@+id/answers"
+                android:background="@drawable/kenarsizkirimli"
+                android:drawableLeft="@drawable/ic_border_color_black_24dp"
+                android:hint="  Cevapla..." />
+
+            <TextView
+                android:id="@+id/answers"
+                android:layout_width="80dp"
+                android:layout_height="23dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="40dp"
+                android:background="@drawable/girisbuttonsekil"
+                android:gravity="center"
+                android:text="Cevap Yok"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageapp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/appiconn" />
+
+    <TextView
+        android:id="@+id/appNameId"
+        android:layout_width="288dp"
+        android:layout_height="118dp"
+        android:layout_alignBottom="@+id/imageapp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="166dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="80sp" />
+
+    <Button
+        android:id="@+id/accesButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/registerButtonId"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/kivrimli_kenar"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/registerButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_new_acount"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:background="@drawable/kivrimli_kenar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"/>
+
+
+
+</RelativeLayout>

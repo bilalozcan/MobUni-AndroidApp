@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<universite>
+		<universite_id>1</universite_id>
+		<name>Abant İzzet Baysal Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>2</universite_id>
+		<name>Abdullah Gül Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>3</universite_id>
+		<name>Acıbadem Mehmet Ali Aydınlar Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>4</universite_id>
+		<name>Adana Bilim Ve Teknoloji Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>5</universite_id>
+		<name>Adıyaman Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>6</universite_id>
+		<name>Adnan Menderes Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>7</universite_id>
+		<name>Afyon Kocatepe Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>8</universite_id>
+		<name>Ağrı İbrahim Çeçen Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>9</universite_id>
+		<name>Ahi Evran Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>10</universite_id>
+		<name>Akdeniz Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>11</universite_id>
+		<name>Aksaray Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>12</universite_id>
+		<name>Alanya Alaaddin Keykubat Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>13</universite_id>
+		<name>Alanya Hamdullah Emin Paşa Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>14</universite_id>
+		<name>Altınbaş Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>15</universite_id>
+		<name>Amasya Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>16</universite_id>
+		<name>Anadolu Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>17</universite_id>
+		<name>Ankara Sosyal Bilimler Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>18</universite_id>
+		<name>Ankara Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>19</universite_id>
+		<name>Ankara Yıldırım Beyazıt Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>20</universite_id>
+		<name>Antalya Akev Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>21</universite_id>
+		<name>Antalya Bilim Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>22</universite_id>
+		<name>Ardahan Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>23</universite_id>
+		<name>Artvin Çoruh Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>24</universite_id>
+		<name>Ataşehir Adıgüzel Meslek Yüksekokulu</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>25</universite_id>
+		<name>Atatürk Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>26</universite_id>
+		<name>Atılım Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>27</universite_id>
+		<name>Avrasya Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>28</universite_id>
+		<name>Avrupa Meslek Yüksekokulu</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>29</universite_id>
+		<name>Bahçeşehir Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>30</universite_id>
+		<name>Balıkesir Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>31</universite_id>
+		<name>Bandırma Onyedi Eylül Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>32</universite_id>
+		<name>Bartın Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>33</universite_id>
+		<name>Başkent Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>34</universite_id>
+		<name>Batman Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>35</universite_id>
+		<name>Bayburt Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>36</universite_id>
+		<name>Beykent Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>37</universite_id>
+		<name>Beykoz Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>38</universite_id>
+		<name>Bezm-İ Âlem Vakıf Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>39</universite_id>
+		<name>Bilecik Şeyh Edebali Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>40</universite_id>
+		<name>Bingöl Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>41</universite_id>
+		<name>Biruni Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>42</universite_id>
+		<name>Bitlis Eren Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>43</universite_id>
+		<name>Boğaziçi Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>44</universite_id>
+		<name>Bozok Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>45</universite_id>
+		<name>Bursa Teknik Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>46</universite_id>
+		<name>Bülent Ecevit Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>47</universite_id>
+		<name>Canik Başarı Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>48</universite_id>
+		<name>Cumhuriyet Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>49</universite_id>
+		<name>Çağ Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>50</universite_id>
+		<name>Çanakkale Onsekiz Mart Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>51</universite_id>
+		<name>Çankaya Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>52</universite_id>
+		<name>Çankırı Karatekin Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>53</universite_id>
+		<name>Çukurova Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>54</universite_id>
+		<name>Dicle Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>55</universite_id>
+		<name>Doğuş Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>56</universite_id>
+		<name>Dokuz Eylül Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>57</universite_id>
+		<name>Dumlupınar Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>58</universite_id>
+		<name>Düzce Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>59</universite_id>
+		<name>Ege Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>60</universite_id>
+		<name>Erciyes Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>61</universite_id>
+		<name>Erzincan Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>62</universite_id>
+		<name>Erzurum Teknik Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>63</universite_id>
+		<name>Eskişehir Osmangazi Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>64</universite_id>
+		<name>Faruk Saraç Tasarım Meslek Yüksekokulu</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>65</universite_id>
+		<name>Fatih Sultan Mehmet Vakıf Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>66</universite_id>
+		<name>Fırat Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>67</universite_id>
+		<name>Galatasaray Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>68</universite_id>
+		<name>Gazi Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>69</universite_id>
+		<name>Gaziantep Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>70</universite_id>
+		<name>Gaziosmanpaşa Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>71</universite_id>
+		<name>Gebze Teknik Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>72</universite_id>
+		<name>Giresun Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>73</universite_id>
+		<name>Gümüşhane Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>74</universite_id>
+		<name>Hacettepe Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>75</universite_id>
+		<name>Hakkari Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>76</universite_id>
+		<name>Haliç Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>77</universite_id>
+		<name>Harran Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>78</universite_id>
+		<name>Hasan Kalyoncu Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>79</universite_id>
+		<name>Hitit Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>80</universite_id>
+		<name>Iğdır Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>81</universite_id>
+		<name>Işık Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>82</universite_id>
+		<name>İbn Haldun Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>83</universite_id>
+		<name>İhsan Doğramacı Bilkent Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>84</universite_id>
+		<name>İnönü Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>85</universite_id>
+		<name>İskenderun Teknik Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>86</universite_id>
+		<name>İstanbul 29 Mayıs Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>87</universite_id>
+		<name>İstanbul Arel Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>88</universite_id>
+		<name>İstanbul Aydın Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>89</universite_id>
+		<name>İstanbul Ayvansaray Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>90</universite_id>
+		<name>İstanbul Bilgi Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>91</universite_id>
+		<name>İstanbul Bilim Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>92</universite_id>
+		<name>İstanbul Esenyurt Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>93</universite_id>
+		<name>İstanbul Gedik Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>94</universite_id>
+		<name>İstanbul Gelişim Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>95</universite_id>
+		<name>İstanbul Kavram Meslek Yüksekokulu</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>96</universite_id>
+		<name>İstanbul Kemerburgaz Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>97</universite_id>
+		<name>İstanbul Kent Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>98</universite_id>
+		<name>İstanbul Kültür Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>99</universite_id>
+		<name>İstanbul Medeniyet Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>100</universite_id>
+		<name>İstanbul Medipol Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>101</universite_id>
+		<name>İstanbul Rumeli Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>102</universite_id>
+		<name>İstanbul Sabahattin Zaim Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>103</universite_id>
+		<name>İstanbul Şehir Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>104</universite_id>
+		<name>İstanbul Şişli Meslek Yüksekokulu</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>105</universite_id>
+		<name>İstanbul Teknik Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>106</universite_id>
+		<name>İstanbul Ticaret Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>107</universite_id>
+		<name>İstanbul Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>108</universite_id>
+		<name>İstanbul Yeni Yüzyıl Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>109</universite_id>
+		<name>İstinye Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>110</universite_id>
+		<name>İzmir Bakırçay Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>111</universite_id>
+		<name>İzmir Demokrasi Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>112</universite_id>
+		<name>İzmir Ekonomi Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>113</universite_id>
+		<name>İzmir Katip Çelebi Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>114</universite_id>
+		<name>İzmir Yüksek Teknoloji Enstitüsü</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>115</universite_id>
+		<name>Kadir Has Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>116</universite_id>
+		<name>Kafkas Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>117</universite_id>
+		<name>Kahramanmaraş Sütçü İmam Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>118</universite_id>
+		<name>Kapadokya Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>119</universite_id>
+		<name>Karabük Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>120</universite_id>
+		<name>Karadeniz Teknik Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>121</universite_id>
+		<name>Karamanoğlu Mehmetbey Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>122</universite_id>
+		<name>Kastamonu Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>123</universite_id>
+		<name>Kırıkkale Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>124</universite_id>
+		<name>Kırklareli Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>125</universite_id>
+		<name>Kilis 7 Aralık Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>126</universite_id>
+		<name>Kocaeli Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>127</universite_id>
+		<name>Koç Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>128</universite_id>
+		<name>Konya Gıda Ve Tarım Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>129</universite_id>
+		<name>Kto Karatay Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>130</universite_id>
+		<name>Maltepe Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>131</universite_id>
+		<name>Manisa Celâl Bayar Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>132</universite_id>
+		<name>Mardin Artuklu Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>133</universite_id>
+		<name>Marmara Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>134</universite_id>
+		<name>Mef Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>135</universite_id>
+		<name>Mehmet Akif Ersoy Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>136</universite_id>
+		<name>Melikşah Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>137</universite_id>
+		<name>Mersin Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>138</universite_id>
+		<name>Mimar Sinan Güzel Sanatlar Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>139</universite_id>
+		<name>Muğla Sıtkı Koçman Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>140</universite_id>
+		<name>Munzur Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>141</universite_id>
+		<name>Mustafa Kemal Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>142</universite_id>
+		<name>Muş Alparslan Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>143</universite_id>
+		<name>Namık Kemal Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>144</universite_id>
+		<name>Necmettin Erbakan Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>145</universite_id>
+		<name>Nevşehir Hacı Bektaş Veli Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>146</universite_id>
+		<name>Niğde Ömer Halisdemir Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>147</universite_id>
+		<name>Niğde Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>148</universite_id>
+		<name>Nişantaşı Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>149</universite_id>
+		<name>Nuh Naci Yazgan Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>150</universite_id>
+		<name>Okan Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>151</universite_id>
+		<name>Ondokuz Mayıs Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>152</universite_id>
+		<name>Ordu Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>153</universite_id>
+		<name>Orta Doğu Teknik Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>154</universite_id>
+		<name>Osmaniye Korkut Ata Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>155</universite_id>
+		<name>Özyeğin Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>156</universite_id>
+		<name>Pamukkale Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>157</universite_id>
+		<name>Piri Reis Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>158</universite_id>
+		<name>Recep Tayyip Erdoğan Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>159</universite_id>
+		<name>Sabancı Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>160</universite_id>
+		<name>Sağlık Bilimleri Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>161</universite_id>
+		<name>Sakarya Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>162</universite_id>
+		<name>Sanko Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>163</universite_id>
+		<name>Selçuk Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>164</universite_id>
+		<name>Siirt Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>165</universite_id>
+		<name>Sinop Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>166</universite_id>
+		<name>Süleyman Demirel Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>167</universite_id>
+		<name>Şırnak Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>168</universite_id>
+		<name>Ted Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>169</universite_id>
+		<name>Tobb Ekonomi Ve Teknoloji Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>170</universite_id>
+		<name>Toros Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>171</universite_id>
+		<name>Trakya Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>172</universite_id>
+		<name>Türk Hava Kurumu Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>173</universite_id>
+		<name>Türk-Alman Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>174</universite_id>
+		<name>Ufuk Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>175</universite_id>
+		<name>Uludağ Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>176</universite_id>
+		<name>Uşak Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>177</universite_id>
+		<name>Üsküdar Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>178</universite_id>
+		<name>Yalova Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>179</universite_id>
+		<name>Yaşar Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>180</universite_id>
+		<name>Yeditepe Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>181</universite_id>
+		<name>Yıldız Teknik Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>182</universite_id>
+		<name>Yüksek İhtisas Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>183</universite_id>
+		<name>Yüzüncü Yıl Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>184</universite_id>
+		<name>Bâb-ı Âlem</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>192</universite_id>
+		<name>Eskişehir Teknik Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>193</universite_id>
+		<name>Isparta Uygulamalı Bilimler Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>194</universite_id>
+		<name>Kayseri Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>195</universite_id>
+		<name>Kütahya Sağlık Bilimleri Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>196</universite_id>
+		<name>Lokman Hekim Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>197</universite_id>
+		<name>Sakarya Uygulamalı Bilimler Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>198</universite_id>
+		<name>Trabzon Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>199</universite_id>
+		<name>Ankara Hacı Bayram Veli Üniversitesi</name>
+		<status>1</status>
+	</universite>
+	<universite>
+		<universite_id>200</universite_id>
+		<name>Ankara Müzik ve Güzel Sanatlar Üniversitesi</name>
+		<status>1</status>
+	</universite>
+</root>

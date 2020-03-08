@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/acionbareditprofile"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/acionbareditprofile"
+        android:id="@+id/scroll_view">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scroll_view"
+            android:id="@+id/relativelayout">
+
+            <RelativeLayout
+                android:id="@+id/linearlayout"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/change_profile_image"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_profile"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/girisbuttonsekil"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_change_profile_image"
+                    android:text="Değiştir"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearlayout"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:hint="Ad Soyad"
+                android:padding="10dp"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/name_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_text"
+                android:layout_alignStart="@+id/name_text"
+                android:layout_marginTop="-17dp" />
+
+            <TextView
+                android:id="@+id/username_text"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_edittext"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:hint="Kullanıcı Adı"
+                android:padding="10dp"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/username_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username_text"
+                android:layout_alignStart="@+id/username_text"
+                android:layout_marginTop="-17dp" />
+            <TextView
+                android:id="@+id/email_text"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/username_edittext"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:hint="E-posta Adresi"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:visibility="gone"/>
+            <EditText
+                android:id="@+id/email_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email_text"
+                android:layout_alignStart="@+id/email_text"
+                android:layout_marginTop="-17dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/university_text"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email_edittext"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="14dp"
+                android:hint="Üniversite"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="15dp"
+                android:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/university_spinner"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/university_text"
+                android:layout_centerHorizontal="true"
+                android:hint="Üniversite"
+                android:padding="15dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/department_text"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/university_spinner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:hint="Bölüm"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:visibility="gone"/>
+
+            <Spinner
+                android:id="@+id/department_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/department_text"
+                android:layout_alignStart="@+id/university_spinner"
+                android:layout_alignEnd="@+id/university_spinner"
+                android:hint="Üniversite"
+                android:textAlignment="center"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/save_button"
+                android:layout_below="@id/department_spinner"
+                android:layout_marginBottom="60dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColorLink="@color/colorGrey"
+                android:background="@drawable/girisbuttonsekil"
+                android:text="Kaydet"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

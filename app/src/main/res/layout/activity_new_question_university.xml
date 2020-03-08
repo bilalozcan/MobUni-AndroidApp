@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewQuestionUniversityActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground">
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:background="@color/colorWhite"
+            tools:targetApi="lollipop">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="false"
+                    android:src="@drawable/ic_close"
+                    android:contentDescription="TODO" />
+                <TextView
+                    android:id="@+id/share"
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:textStyle="bold"
+                    android:text=" SOR "
+                    android:background="@drawable/girisbuttonsekil"
+                    android:textColor="@color/colorWhite"/>
+
+            </RelativeLayout>
+        </Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/university_name_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:textAllCaps="false"
+            android:padding="4dp"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorPrimary"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/department_name_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/university_name_2"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:text="Genel"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:textStyle="normal" >
+        </Button>
+
+        <EditText
+            android:id="@+id/question_added"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/department_name_2"
+            android:autofillHints=""
+            android:hint="SORU SORUNUZ"
+            android:maxLines="5"
+            android:maxLength="150"
+            android:backgroundTint="@color/colorWhite"
+            android:background="@drawable/kenarsizkirimli"
+            android:inputType="textMultiLine"
+            android:padding="50dp" />z
+
+    </RelativeLayout>
+
+</LinearLayout>
