@@ -2,6 +2,7 @@
 MobUni app bir android uygulamadır.
 Bu uygulama Mehmet Afif ARSAY , Bilal ÖZCAN  ve Fatih GAYBERİ tarafından yazılmıştır.
 Bu uygulama iki kısımdan oluşmaktadır.
+
 1. kısım
   Üniversite de okuyanlar içindir.
    Kendi aralarında mesajlaşabilmeleri ya da farklı bir üniversitede okuyan öğrenciler ile iletişime geçebilmeleri sağlanmaktadır.
