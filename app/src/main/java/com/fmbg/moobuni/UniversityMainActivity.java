@@ -57,7 +57,7 @@ public class UniversityMainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         TextView mTitle =toolbar.findViewById(R.id.toolbar_title);
-        mTitle.setText("MobUni Üniversite");
+        mTitle.setText("MobUni Üniversite V2 YAKINDA!");
         viewpagermain =(ViewPager) findViewById(R.id.viewmain2id);
         tabsadapter = new TabsAdappterUNI(getSupportFragmentManager());
         viewpagermain.setAdapter(tabsadapter);

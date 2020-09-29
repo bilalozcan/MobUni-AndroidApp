@@ -59,7 +59,7 @@ public class HighschoolMainActivity extends AppCompatActivity
     private void init(){
         toolbar = findViewById(R.id.toolbarhighschoolmain);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("MobUni Lise");
+        getSupportActionBar().setTitle("MobUni Lise V2 YAKINDA!");
         drawer = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
         toggle = new ActionBarDrawerToggle(
