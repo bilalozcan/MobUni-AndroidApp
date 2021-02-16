@@ -60,7 +60,7 @@ public class PasswordResetActivity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isComplete()) {
                                     Toast.makeText(PasswordResetActivity.this, "Şifreniz değiştirildi", Toast.LENGTH_SHORT).show();
-                                    databaseReference.child("password").setValue(new_password.getText().toString());
+                                    //databaseReference.child("password").setValue(new_password.getText().toString());
                                     onBackPressed();
                                 } else {
                                     Toast.makeText(PasswordResetActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
